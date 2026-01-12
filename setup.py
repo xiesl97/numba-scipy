@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import versioneer
 
 
-_install_requires = ["scipy>=0.16,<=1.11.0", "numba>=0.45"]
+_install_requires = ["scipy>=0.16,<1.17", "numba>=0.60"]
 
 
 metadata = dict(
@@ -16,10 +16,10 @@ metadata = dict(
         "License :: OSI Approved :: BSD License",
         "Operating System :: OS Independent",
         "Programming Language :: Python",
-        "Programming Language :: Python :: 3.8",
-        "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
+        "Programming Language :: Python :: 3.13",
         "Topic :: Software Development :: Compilers",
     ],
     package_data={},
