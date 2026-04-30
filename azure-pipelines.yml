@@ -25,6 +25,26 @@ jobs:
         NUMPY: '1.23'
         SCIPY: '1.16'
         CONDA_ENV: 'testenv'
+      py310_np123_sp1_17:
+        PYTHON: '3.10'
+        NUMPY: '1.23'
+        SCIPY: '1.17'
+        CONDA_ENV: 'testenv'
+      py311_np123_sp1_17:
+        PYTHON: '3.11'
+        NUMPY: '1.23'
+        SCIPY: '1.17'
+        CONDA_ENV: 'testenv'
+      py312_np123_sp1_17:
+        PYTHON: '3.12'
+        NUMPY: '1.23'
+        SCIPY: '1.17'
+        CONDA_ENV: 'testenv'
+      py313_np123_sp1_17:
+        PYTHON: '3.13'
+        NUMPY: '1.23'
+        SCIPY: '1.17'
+        CONDA_ENV: 'testenv'
 
 - template: buildscripts/azure/azure-linux-macos.yml
   parameters:
@@ -51,6 +71,26 @@ jobs:
         NUMPY: '1.23'
         SCIPY: '1.16'
         CONDA_ENV: 'testenv'
+      py310_np123_sp1_17:
+        PYTHON: '3.10'
+        NUMPY: '1.23'
+        SCIPY: '1.17'
+        CONDA_ENV: 'testenv'
+      py311_np123_sp1_17:
+        PYTHON: '3.11'
+        NUMPY: '1.23'
+        SCIPY: '1.17'
+        CONDA_ENV: 'testenv'
+      py312_np123_sp1_17:
+        PYTHON: '3.12'
+        NUMPY: '1.23'
+        SCIPY: '1.17'
+        CONDA_ENV: 'testenv'
+      py313_np123_sp1_17:
+        PYTHON: '3.13'
+        NUMPY: '1.23'
+        SCIPY: '1.17'
+        CONDA_ENV: 'testenv'
 
 - template: buildscripts/azure/azure-windows.yml
   parameters:
@@ -76,4 +116,24 @@ jobs:
         PYTHON: '3.13'
         NUMPY: '1.23'
         SCIPY: '1.16'
+        CONDA_ENV: 'testenv'
+      py310_np123_sp1_17:
+        PYTHON: '3.10'
+        NUMPY: '1.23'
+        SCIPY: '1.17'
+        CONDA_ENV: 'testenv'
+      py311_np123_sp1_17:
+        PYTHON: '3.11'
+        NUMPY: '1.23'
+        SCIPY: '1.17'
+        CONDA_ENV: 'testenv'
+      py312_np123_sp1_17:
+        PYTHON: '3.12'
+        NUMPY: '1.23'
+        SCIPY: '1.17'
+        CONDA_ENV: 'testenv'
+      py313_np123_sp1_17:
+        PYTHON: '3.13'
+        NUMPY: '1.23'
+        SCIPY: '1.17'
         CONDA_ENV: 'testenv'

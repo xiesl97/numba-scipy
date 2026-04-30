@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import versioneer
 
 
-_install_requires = ["scipy>=0.16,<1.17", "numba>=0.60"]
+_install_requires = ["scipy>=0.16,<1.18", "numba>=0.60"]
 
 
 metadata = dict(
